@@ -1,0 +1,224 @@
+body {
+    background-color: #efefef;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color:white;
+    font-weight: bold;
+}
+.error {
+    display: block;
+    margin: 5px 0;
+}
+
+.reservations-icon {
+    color: gray;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.reservation-card {
+    letter-spacing: 0;
+    padding: 10px 0;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+    border-radius: 6px;
+    color: rgba(0,0,0,.87);
+}
+
+.reservation-card:hover {
+    transform: scale(1.1);
+    /* transition: all 0.5s ease; */
+}
+
+.card-separator {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.c-gray {
+    color: #999;
+}
+
+.reservation-p {
+    text-align: center;
+    margin: 0 10px;
+    padding: 0;
+    font-size: 18px;
+}
+
+.rname {
+    text-align: center;
+}
+
+.nav-background {
+    background-color: rgba(229,57,53,0.9) !important;
+}
+
+
+.img-background {
+    color: white;
+    height: 56px;
+    background-size: cover;
+    background: url('img/mountains.jpeg') no-repeat;
+}
+
+
+.search-form {
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 5px;
+    border-radius: 25px;
+}
+
+.search-form:focus{
+    border: 1px solid rgba(229,57,53,0.9);
+    transition: all 1s ease;
+}
+
+.search-group {
+    position: relative;
+    padding-left: 10px;
+}
+
+.search-input {
+    padding-left: 25px;
+    border: none;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: -1px;
+    height: 100%;
+    color: #838E95;
+    padding-left: 2px;
+    padding-right: 0;
+}
+
+.location-card {
+    letter-spacing: 0;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+    border-radius: 6px;
+    color: rgba(0,0,0,.87);
+}
+
+.location-card:hover {
+    transform: scale(1.01);
+    /* transition: all 0.5s ease; */
+}
+
+.location-card-name {
+    padding: 10px 10px;
+    display: inline-block;
+    margin: 0;
+}
+
+.edit-icon {
+    padding-top: 13px;
+    padding-right: 25px;
+    color: #21c0eb;
+}
+
+
+.delete-icon {
+    padding-top: 13px;
+    padding-right: 45px;
+    color: #ed0d0d;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.card-form {
+    margin: 50px 0;
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+    border-radius: 6px;
+}
+
+.card-content {
+    padding:15px 20px;
+}
+
+.card-header {
+    background: linear-gradient(60deg,#5cb860,#31b737);
+    margin: -20px 15px 0;
+    border-radius: 3px;
+    padding: 15px;
+    color: white;
+}
+
+.card-header-icon {
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.card-header-title {
+    font-size: 20px;
+}
+
+.card-spinner {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.admin-panel-spinner {
+    font-size: 55px;
+    margin: 20px 0;
+}
+
+.c-green {
+    background-color: #3EB744;
+}
+
+.c-green:hover {
+    -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -2px rgba(44,201,50,0.74);
+    -moz-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -2px rgba(44,201,50,0.74);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -2px rgba(44,201,50,0.74);
+}
+
+.rose-box-shadow {
+    -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(233,30,99,.4);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(233,30,99,.4);
+}
+
+.green-box-shadow {
+    -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(18, 234, 27, 0.4);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(18, 234, 27, 0.4);
+}
+
+.btn {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+}
+
+.c-rose {
+    background-color: #e91e63;
+}
+
+.c-rose:hover {
+    -webkit-box-shadow: 0 14px 26px -12px rgba(233,30,99,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(233,30,99,.2);
+    box-shadow: 0 14px 26px -12px rgba(233,30,99,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(233,30,99,.2);
+}
